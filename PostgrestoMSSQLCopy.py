@@ -16,13 +16,13 @@ myConnection = psycopg2.connect(host=hostname, user=username, password=password,
 
 # Creating SQL Server Engine
 
-params = urllib.parse.quote_plus("DRIVER={SQL Server Native Client 11.0};SERVER=XXXXXXXXXX;DATABASE=XXXXXXXXXX;UID=XXXXX;PWD=XXXXX)        
+params = urllib.parse.quote_plus("DRIVER={SQL Server Native Client 11.0};SERVER=XXXXXXXXXX;DATABASE=XXXXXXXXXX;UID=XXXXX;PWD=XXXXX)                   
 
 engine = sa.create_engine("mssql+pyodbc:///?odbc_connect=%s" % params)
 
 # Connecting to SQL Server
 
-conn = pyodbc.connect('DRIVER={SQL Server Native Client 11.0};SERVER=XXXXXXXXXX;DATABASE=XXXXXXXXXX;UID=XXXXX;PWD=XXXXX)
+conn = pyodbc.connect('DRIVER={SQL Server Native Client 11.0};SERVER=XXXXXXXXXX;DATABASE=XXXXXXXXXX;UID=XXXXX;PWD=XXXXX)                       
 
 # creating a loop for the tables
 
