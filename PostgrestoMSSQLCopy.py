@@ -6,13 +6,17 @@ import urllib
 
 
 # Connecting to Postgres Database
+hostname = 'XXXXXXXXXXXXXXX'
+username = 'XXXXX'
+password = 'XXXXX'
+database = 'XXXXX'
 
 
 myConnection = psycopg2.connect(host=hostname, user=username, password=password, dbname=database)
 
 # Creating SQL Server Engine
 
-params = urllib.parse.quote_plus("DRIVER={SQL Server Native Client 11.0};SERVER=server;DATABASE=db;UID=userid;PWD=pwd)
+params = urllib.parse.quote_plus("DRIVER={SQL Server Native Client 11.0};SERVER=XXXXXXXXXX;DATABASE=XXXXXXXXXX;UID=XXXXX;PWD=XXXXX)
 
 engine = sa.create_engine("mssql+pyodbc:///?odbc_connect=%s" % params)
 
