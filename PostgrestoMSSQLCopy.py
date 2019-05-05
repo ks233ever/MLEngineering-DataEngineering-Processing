@@ -16,13 +16,13 @@ myConnection = psycopg2.connect(host=hostname, user=username, password=password,
 
 # Creating SQL Server Engine
 
-params = urllib.parse.quote_plus("DRIVER={SQL Server Native Client 11.0};SERVER=XXXXXXXXXX;DATABASE=XXXXXXXXXX;UID=XXXXX;PWD=XXXXX)
+params = urllib.parse.quote_plus("DRIVER={SQL Server Native Client 11.0};SERVER=XXXXXXXXXX;DATABASE=XXXXXXXXXX;UID=XXXXX;PWD=XXXXX)        
 
 engine = sa.create_engine("mssql+pyodbc:///?odbc_connect=%s" % params)
 
 # Connecting to SQL Server
 
-conn = pyodbc.connect('DRIVER={SQL Server Native Client 11.0};SERVER=server;DATABASE=db;UID=userid;PWD=pwd)
+conn = pyodbc.connect('DRIVER={SQL Server Native Client 11.0};SERVER=XXXXXXXXXX;DATABASE=XXXXXXXXXX;UID=XXXXX;PWD=XXXXX)
 
 # creating a loop for the tables
 
@@ -72,7 +72,7 @@ for table in tablenames:
 
     # drop the table if it exists in SQL Server
     cursor = conn.cursor()
-    cursor.execute('DROP TABLE IF EXISTS dbo.{}'.format(sql_table))
+    cursor.execute('DROP TABLE IF EXISTS dbo.[{}]'.format(sql_table))
     conn.commit()
 
 
