@@ -43,7 +43,7 @@ class ProcessFiles:
     	session = boto3.Session()
     	# low-level client interfact
         s3_client = session.client('s3')
-		# high level interface
+	# high level interface
         s3_resource = session.resource('s3')
 
         bucket = s3_resource.Bucket('XXXXXX')
@@ -55,7 +55,7 @@ class ProcessFiles:
 
         rootdir = self.path + '/{}/'.format(self.label)
 
-  		# creating a list of zip file paths to extract
+  	# creating a list of zip file paths to extract
         files_paths = []
         for subdir, dirs, files in os.walk(rootdir):
             print('Grabbing the downloaded zip file paths to extract: ')
@@ -68,19 +68,19 @@ class ProcessFiles:
         print('total files to extract: ', len(files_paths))
         print('\n')
 
-		# creating a list of extracted file names that we will upload to s3
+	# creating a list of extracted file names that we will upload to s3
         s3_files = []
         for i in files_paths:
 
-    		# Create a ZipFile Object
+    	    # Create a ZipFile Object
             with ZipFile(i, 'r') as zipObj:
-       			# Get a list of all archived file names from the zip
+       		# Get a list of all archived file names from the zip
                 listOfFileNames = zipObj.namelist()
-       			# Iterate over the file names
+       		# Iterate over the file names
                 for fileName in listOfFileNames:
-           	 		# Check filename doesn't have restriction in it
+           	 # Check filename doesn't have restriction in it
                     if 'restriction' not in fileName:
-               			# Extract the single file from zip to upload to s3
+               		# Extract the single file from zip to upload to s3
                         zipObj.extract(fileName, self.path + '/{}/Unzipped'.format(self.label))
                         s3_files.append(fileName)
 
@@ -99,7 +99,7 @@ class ProcessFiles:
             print(obj.key)
         print('\n')
 
-    #download files from the S3 bucket
+    # download files from the S3 bucket
     def s3_download(self):
         session = boto3.Session()
     	# low-level client interfact
