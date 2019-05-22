@@ -18,7 +18,7 @@ class ProcessFiles:
         self.path = path
         self.df_final = None
 
-    #download files from an FTP site
+    # download files from an FTP site
     def ftp_download(self):
 
         os.mkdir(self.path + '/{}'.format(self.label))
@@ -38,7 +38,7 @@ class ProcessFiles:
 
         print('Downloaded the following files into your path: {}'.format(downloads))
 
-    #Upload files to an S3 bucket
+    # Upload files to an S3 bucket
     def s3_upload(self):
     	session = boto3.Session()
     	# low-level client interfact
