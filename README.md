@@ -1,7 +1,6 @@
-Ad Hoc ETL Scripts
--------------------
+ML Engineering - Data Engineering - Processing
+-----------------------------------------------
 
-PostgrestoMSSQLCopy.py-- Example py script to migrate tables from a Postgres DB to a SQL Server DB.
+Repo for ML Engineering, Data Engineering, Data Processing, DevOps, etc Projects
 
-DataPipeline.py-- Example data pipeline that extracts, transforms and loads data across multiple systems(FTP,S3).
 
