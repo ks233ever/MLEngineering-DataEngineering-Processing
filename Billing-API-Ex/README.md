@@ -1,4 +1,4 @@
-#Example API Script
+**Example API Script**
 
 1. Load customer data file
 2. Retrieve information via Stripe API
