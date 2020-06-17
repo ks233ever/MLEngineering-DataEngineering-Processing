@@ -6,4 +6,4 @@
 4. Convert TensorFlow model to SageMaker readable format
 5. Deploy the trained model as a live endpoint
 
-See DataScience-AI/DeepLearning/CNN_Diabetic_Retinopathy to view the code used to create this CNN
+See DataScience-AI/DeepLearning/CNN_Diabetic_Retinopathy to view the code used to create the model
