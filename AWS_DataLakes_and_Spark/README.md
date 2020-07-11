@@ -1,4 +1,4 @@
-Data Lake options on AWS include:
+**Data Lake options on AWS include:**
 
 * HDFS with Spark (AWS EMR)
    * See Spark_Deployment_and_EDA/Distributed_Deployment for steps on deploying the cluster and directly SHH'ing into it
