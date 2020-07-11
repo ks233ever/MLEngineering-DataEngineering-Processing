@@ -21,5 +21,5 @@ You can also run py scripts and access data directly from the cluster by SSH'ing
   * Access data directly from the HDFS file system
     * Add a step to your cluster which copies data from your S3 bucket to HDFS file system
     * <https://aws.amazon.com/premiumsupport/knowledge-center/copy-s3-hdfs-emr/>
-    * Specify the ouput location on the cluster, for example, mine is hdfs:////output-folder1/
+    * Specify the S3 ouput location on the cluster, for example, mine is hdfs:////output-folder1/
     * Can now access data files in hdfs:////output-folder1/ and submit jobs via */usr/bin/spark-submit --master yarn hdfs:////output-folder1/py_script.py*
