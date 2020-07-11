@@ -5,7 +5,7 @@ Data Lake options on AWS include:
 ![alt text](images/HDFS_Spark.png?raw=true)
 
 * S3 with Spark (AWS EMR)
-  * See DataLake_S3.ipynb
+  * See DataLake_S3_Spark.ipynb
 
 ![alt text](images/S3_Spark.png?raw=true)
 
