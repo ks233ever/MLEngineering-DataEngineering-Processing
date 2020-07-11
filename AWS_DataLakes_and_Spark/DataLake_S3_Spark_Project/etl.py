@@ -31,7 +31,8 @@ def create_spark_session():
 def process_song_data(spark, input_data, output_data):
     
     """
-    This function reads the songs JSON files from S3 and processes them with Spark. It reads the json file in as a dataframe. Spark's Schema On rRad functionality       allows us to represent each of these as a table. It then writes these tables into parquet files.
+    This function reads the songs JSON files from S3 and processes them with Spark. It reads the json file in as a dataframe. 
+    Spark's Schema On Read functionality allows us to represent each of these as a table. It then writes these tables into parquet files.
     
     
     Parameters
