@@ -1,6 +1,6 @@
 MLOps - Data Engineering 
 -----------------------------------------------
 
-Repo for ML Engineering, ML Ops, Data Engineering, DevOps, etc Projects
+Repo for MLE, MLOps, Data Engineering, DevOps, etc projects
 
 
