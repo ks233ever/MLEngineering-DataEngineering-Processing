@@ -9,6 +9,7 @@
 
 
 This repo shows how to use Jupyter Notebooks within the EMR console which are connected to the cluster for data wrangling.
+
 You can also run py scripts and access data directly from the cluster by SSH'ing into it.
 
 **To do this :**
