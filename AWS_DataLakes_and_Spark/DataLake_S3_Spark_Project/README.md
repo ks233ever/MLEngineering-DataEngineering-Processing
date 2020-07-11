@@ -31,7 +31,7 @@
             
 **ETL.py:**
 
-* Automated pipeline which:
+* Automated pipeline deployed on EMR cluster which:
     * Creates a Spark session
     * Reads Sparkify's song and log data from s3
     * Processes the data into analytics tables using Spark
