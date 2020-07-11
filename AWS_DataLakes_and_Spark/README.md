@@ -2,7 +2,7 @@ Data Lake options on AWS include:
 
 * HDFS with Spark (AWS EMR)
 
-![alt text](https://github.com/ks233ever/MLOps-DataEngineering/AWS_DataLakes_and_Spark/images/S3_Spark.jpg?raw=true)
+![alt text](images/S3_Spark.jpg?raw=true)
 
 * S3 with Spark (AWS EMR)
 
