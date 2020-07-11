@@ -14,7 +14,7 @@ You can also run py scripts and access data directly from the cluster by SSH'ing
 
 **To do this :**
 
-* ssh -i ~.aws/<your_pem_file.pem> hadoop@<master_dns>
+* *ssh -i ~.aws/<your_pem_file.pem> hadoop@<master_dns>*
 * Once connected, there are two ways to access your data or scripts
   * Submit spark jobs directly from your S3 bucket
     * */usr/bin/spark-submit --master yarn s3://your_bucket_path/py_script.py*
