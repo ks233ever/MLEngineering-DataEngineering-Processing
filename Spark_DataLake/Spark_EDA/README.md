@@ -1,13 +1,4 @@
-These notebooks highlight two different ways we can manipulate data using PySpark
+Repo for ad hoc data wrangling examples using Spark.
 
-* Imperative Programming
-  * Use Spark's DataFrame API 
-  * See Spark_EDA_Python.ipynb
-
-* Declarative Programming
-  * Use Spark's SQL API
-  * See Spark_EDA_SQL.ipynb
-
-DataFrames and Spark SQL offer similiar functionality-- choice is largely a matter of preference
-
-Noting here that these notebooks were run locally 
+The Local folder includes notebooks that were run locally using PySpark.
+The Distributed folder includes code run using a Spark EMR Cluster deployed on AWS. 
