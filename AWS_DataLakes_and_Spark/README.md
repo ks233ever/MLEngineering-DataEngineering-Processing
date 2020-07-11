@@ -12,6 +12,10 @@
 ![alt text](images/S3_Spark.png?raw=true)
 
 * S3 with Severless (AWS Athena)
+  * In AWS Athena console, create table using S3 or Glue Crawler
+  * Glue Crawler is a tool that creates crawlers which grab data from our S3 data store on a set frequency, and infers the schema
+  * It outputs the data to a selected database
+  * After running the crawler we can now query data from Athena-- this process is representative of a sophisticated schema on read
 
 ![alt text](images/Athena.png?raw=true)
 
