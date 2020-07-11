@@ -5,7 +5,7 @@
 * Update the master security group to allow SSH inbound access from your IP address
 * Set up FoxyProxy for port forwarding
   * https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-connect-master-node-proxy.html
-* After deployment, run ssh -i ~.aws/<your_pem_file.pem> -ND 8157 hadoop@<master_dns> to enable all URI links
+* After deployment, run *ssh -i ~.aws/<your_pem_file.pem> -ND 8157 hadoop@<master_dns>* to enable all URI links
 
 
 This repo shows how to use Jupyter Notebooks within the EMR console which are connected to the cluster for data wrangling.
