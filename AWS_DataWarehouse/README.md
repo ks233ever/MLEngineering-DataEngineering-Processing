@@ -6,3 +6,5 @@
   * Create an IAM role
   * Deploy the Redshift cluster
   * Open up the TCP port to access the cluster endpoint
+  
+* *DWH_Parallel_ETL.ipynb* is an example of parallel loading of data to the DWH from S3 
