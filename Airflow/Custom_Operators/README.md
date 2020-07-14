@@ -12,6 +12,6 @@ Demonstrate the functionality of custom operators in Airflow
   
   
   
-  Tree representation of DAG:
+  **Tree representation of DAG:**
   
   ![alt text](images/custom_op.png?raw=true)
