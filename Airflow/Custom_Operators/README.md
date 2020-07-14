@@ -10,6 +10,8 @@ Demonstrate the functionality of custom operators in Airflow
   * Uses a custom HasRowsOperator()
   * See plugins/operators/has_rows.py
   
+  
+  
   Tree representation of DAG:
   
   ![alt text](images/custom_op.png?raw=true)
