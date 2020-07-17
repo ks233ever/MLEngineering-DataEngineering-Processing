@@ -9,5 +9,8 @@ Commonly repeated series of tasks in DAGs can be captured as reusable SubDAGs
   
 **DAG Tree**
 
+  ![alt text](images/dt.png?raw=true)
 
 **DAG Graph**
+
+  ![alt text](images/dg.png?raw=true)
