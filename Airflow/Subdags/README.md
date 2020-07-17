@@ -1,4 +1,4 @@
-Commonly repeated series of tasks in DAGs can be captured as reusable sub dags
+Commonly repeated series of tasks in DAGs can be captured as reusable SubDAGs
 
 **dag.py** 
   * Runs two subdags in parallel
