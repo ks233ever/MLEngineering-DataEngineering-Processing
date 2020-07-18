@@ -11,7 +11,7 @@
 1. Ensure your IP address is within the DaskSecurityGroupIngress4 block in dask-template.yml
 2. Create a conda environment using CondaEnv.yml
 3. Adjust the cluster to your desired number of workers by running this line of code with the appropriate --desired-count 
-  * !aws ecs update-service --service dask-workers --desired-count 2 --cluster Fargate-Dask-Cluster --region us-east-1
+  * !aws ecs update-service --service dask-workers --desired-count 2 --cluster Fargate-Dask-Cluster --region [your region]
   * additional workers will take ~1 min to activate
 4. Connect to the cluster by running 
   * from dask.distributed import Client
