@@ -15,7 +15,7 @@
   * additional workers will take ~1 min to activate
 4. Connect to the cluster by running 
   * from dask.distributed import Client
-  * client = Client('dask-lb-18e7d35a6c8734fb.elb.us-east-1.amazonaws.com:8786')
+  * client = Client('scheduler_endpoint_here')
   * client
  
  **SageMaker**
