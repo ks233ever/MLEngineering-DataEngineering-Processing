@@ -4,7 +4,7 @@ This project uses Airflow to create a data pipeline that moves source data in S3
 * Load dimension tables
 * Run data quality checks
 
-This project uses custom operators as defined in the Operators folder
+This project uses custom operators as defined in the plugins/operators
 * Stage Operator
 * Fact table Operator
 * Dimension table Operator
