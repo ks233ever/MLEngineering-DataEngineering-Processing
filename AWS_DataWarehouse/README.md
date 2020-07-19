@@ -11,4 +11,4 @@
 
 * *DWH_Table_Design.ipynb* demonstrates the query performance gains of using a key distribution style vs no distribution strategy
 
-Example of a DWH pipeline using Airflow can be found in Airflow/Airflow_with_DWH folder
+Example of a DWH pipeline using Airflow can be found in Airflow/Airflow_with_DWH 
