@@ -11,3 +11,5 @@ This project uses custom operators as defined in the Operators folder
 * Data Quality Operator 
 
 **DAG Graph**
+
+![alt text](images/airflow_p.png?raw=true)
