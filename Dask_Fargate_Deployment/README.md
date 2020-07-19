@@ -32,4 +32,4 @@
  * https://blog.dask.org/2016/08/16/dask-for-institutions
  * https://docs.dask.org/en/latest/dataframe-best-practices.html
  
- **dask_template.yaml** is used to create the CloudFormation stack within AWS
+ **dask-template.yaml** is used to create the CloudFormation stack within AWS
