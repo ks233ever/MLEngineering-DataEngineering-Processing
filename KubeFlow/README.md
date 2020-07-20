@@ -1,4 +1,8 @@
-KubeFlow is a Machine Lerning toolkit that runs on top of Kubernetes
+KubeFlow is a Machine Learning toolkit that runs on top of Kubernetes.
 
-These projects were implemented using Google Cloud Platform. You can also deploy Kubeflow on an AWS EKS cluster, or within [Sagemaker](https://aws.amazon.com/about-aws/whats-new/2020/06/amazon-sagemaker-components-kubeflow-pipelines/) now.
+These projects were implemented using Google Cloud Platform. You can also deploy Kubeflow on an AWS EKS cluster, or within [Sagemaker](https://aws.amazon.com/about-aws/whats-new/2020/06/amazon-sagemaker-components-kubeflow-pipelines/) now
+
+**distributed_multi_node_training** is an example of multi worker, multi node, distributed training job in KubeFlow
+
+**Katib_Hyperparam_Tuning** is an example of performing hyperparamter tuning using Katib
   
