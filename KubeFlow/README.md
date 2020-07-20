@@ -2,6 +2,8 @@
 
 These projects were implemented using Google Cloud Platform as a part of this [course](https://app.pluralsight.com/library/courses/building-end-to-end-machine-learning-workflows-kubeflow/table-of-contents). You can also deploy Kubeflow on an AWS EKS cluster, or within [Sagemaker](https://aws.amazon.com/about-aws/whats-new/2020/06/amazon-sagemaker-components-kubeflow-pipelines/)
 
+**End_to_End_Pipeline** is an example of a constructing and deploying a Kubeflow Pipeline from within a notebook
+
 **Katib_Hyperparam_Tuning** is an example of a hyperparameter tuning job using Katib
 
 **Model_Serving** demonstrates the functionality of KFserving
