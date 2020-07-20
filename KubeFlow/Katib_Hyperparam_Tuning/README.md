@@ -1,9 +1,5 @@
 ### Hyperparameter Tuning with Katib
 
-#### Setup Image and Namespace
-- set Image name based on previous TFJob demo
-- Set namespace to be user namespace in which notebook was created earlier
-
 #### launch Experiement
 
 ```
