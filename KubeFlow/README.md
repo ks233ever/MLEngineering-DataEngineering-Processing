@@ -4,5 +4,5 @@ These projects were implemented using Google Cloud Platform. You can also deploy
 
 **distributed_multi_node_training** is an example of a multi worker, multi node, distributed training job in KubeFlow
 
-**Katib_Hyperparam_Tuning** is an example of performing hyperparamter tuning using Katib
+**Katib_Hyperparam_Tuning** is an example of a hyperparameter tuning job using Katib
   
