@@ -19,6 +19,6 @@ kubectl logs -f <TJFOB_NAME>-chief-0 -n kubeflow
 Katib supports multiple optimization algorithms such as random search, grid search, bayesian optimization and hyperband
 
 
-Example output of hyperparamter tuning in KubeFlow UI
+Example output of hyperparameter tuning in KubeFlow UI, can drill down into each job
 
 ![alt text](images/hyper.png?raw=true)
